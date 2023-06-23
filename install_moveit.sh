@@ -14,7 +14,7 @@ sudo apt-get install -y ros-melodic-moveit
 cd ~/ros_ws
 ./intera sim
 cd ~/ros_ws/src
-wstool merge https://raw.githubusercontent.com/RethinkRobotics/sawyer_moveit/master/sawyer_moveit.rosinstall
+wstool merge https://raw.githubusercontent.com/tunglm2203/sawyer_moveit/master/sawyer_moveit.rosinstall
 wstool update
 cd ~/ros_ws
 catkin_make -j4
