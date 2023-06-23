@@ -11,8 +11,8 @@ sudo apt-get install -y gazebo9 ros-melodic-qt-build ros-melodic-gazebo-ros-cont
 
 # Install sawyer_simulator
 cd ~/ros_ws/src
-git clone https://github.com/RethinkRobotics/sawyer_simulator.git
-git clone https://github.com/RethinkRobotics-opensource/sns_ik.git -b melodic-devel
+git clone https://github.com/tunglm2203/sawyer_simulator.git -b release-5.2.0
+git clone https://github.com/tunglm2203/sns_ik.git -b melodic-devel
 
 cd ~/ros_ws/src
 wstool init .
