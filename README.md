@@ -9,5 +9,3 @@ Run orders:
 ./install_gazebo.sh
 ./install_moveit.sh
 ```
-
-Then copy intera.sh into ~/ros_ws/.
