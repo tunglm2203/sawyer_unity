@@ -12,7 +12,7 @@ sudo apt-get install -y ros-melodic-moveit
 
 # Installing and building sawyer MoveIt Repo
 cd ~/ros_ws
-./intera sim
+./intera.sh sim
 cd ~/ros_ws/src
 wstool merge https://raw.githubusercontent.com/tunglm2203/sawyer_moveit/master/sawyer_moveit.rosinstall
 wstool update
