@@ -13,7 +13,7 @@ sudo apt-get install -y git-core python-argparse python-wstool python-vcstools p
 # Download the SDK on your Workstation
 cd ~/ros_ws/src
 wstool init .
-git clone https://github.com/RethinkRobotics/sawyer_robot.git
+git clone https://github.com/tunglm2203/sawyer_robot.git
 wstool merge sawyer_robot/sawyer_robot.rosinstall
 wstool update
 
